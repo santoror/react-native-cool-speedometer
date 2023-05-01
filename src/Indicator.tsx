@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import { Text, TextProps } from 'react-native-svg'
 import Context from './context'
 
+// @ts-ignore
 interface IndicatorProps extends TextProps {
   fontSize?: number
   color?: string

@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import { Animated, Easing, EasingFunction } from 'react-native'
 import Speedometer, { SpeedometerProps } from './Speedometer'
 
-class ClassBasedSpeedometer extends React.Component {
+class ClassBasedSpeedometer extends React.Component<any,any> {
 
   constructor(props: SpeedometerProps) {
     super(props)
